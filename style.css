@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue !important;
+}
+
+body{
+    background-image: url('./newbgimg.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.main-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100vh;
+    height: 80vh;
+    margin-left: 30% ;
+}
+
+.divinter{
+    padding: 1.6vmax;
+    margin-top: 2vmax;
+    display: flex;
+    flex-direction: column;
+}
+
+#h1{
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    color: aliceblue;
+    padding-top: 2vmax;
+    padding-left: 4vmax;
+    text-align: start;
+    font-size: large;
+}
+
+.showtimebtn{
+    display: flex;
+    justify-content: space-between;
+}
+#btn{
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+    background-color: transparent;
+    border: none;
+    text-align: end;
+    width: auto;
+    font-size: 2vmax;
+    cursor: pointer;
+}
+
+#btn:hover{
+    color: beige;
+    border-bottom: 0.4vmax solid rgb(129, 241, 208);
+    border-radius: 0.4vmax;
+}
+
+#time{
+    border: none;
+    margin-left: 2vmax;
+    font-size: 2vmax;
+    color: rgb(37, 23, 51);
+    align-items: flex-start; 
+}
+#date{
+    border: none;
+    margin-left: 2vmax;
+    font-size: 2vmax;
+    color: rgb(37, 23, 51);
+    align-items: flex-start; 
+}
